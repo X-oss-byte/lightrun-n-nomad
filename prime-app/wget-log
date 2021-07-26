@@ -1,0 +1,11 @@
+--2020-12-14 09:27:15--  https://s3.console.aws.amazon.com/s3/object/lightrun-server-files?region=us-east-1
+Resolving s3.console.aws.amazon.com (s3.console.aws.amazon.com)... 54.239.54.102
+Connecting to s3.console.aws.amazon.com (s3.console.aws.amazon.com)|54.239.54.102|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 1023 [text/html]
+Saving to: ‘lightrun-server-files?region=us-east-1’
+
+          lightrun-   0%[                   ]       0  --.-KB/s               lightrun-server-fil 100%[==================>]    1023  --.-KB/s    in 0s      
+
+2020-12-14 09:27:15 (27.9 MB/s) - ‘lightrun-server-files?region=us-east-1’ saved [1023/1023]
+
