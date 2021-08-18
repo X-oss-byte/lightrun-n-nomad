@@ -489,7 +489,7 @@ func (d *Driver) downloadAndExtractLightrunSoIfNeeded(cfg *drivers.TaskConfig) (
 	if _, err := os.Stat(agentZipFile); err != nil || os.IsNotExist(err) {
 		d.logger.Debug("zip file not found, downloading...")
 
-		specUrl := "https://lightrun-server-files.s3.amazonaws.com/Zubi/agent.zip"
+		specUrl := "https://lightrun-server-files.s3.amazonaws.com/Nomad/agent.zip"
 		resp, err := http.Get(specUrl)
 
 		if err != nil {
