@@ -26,7 +26,7 @@ job "lightrun-standalone-example" {
 
 
       artifact {
-        source      = "https://lightrun-server-files.s3.amazonaws.com/Zubi/agent.zip"
+        source      = "https://lightrun-server-files.s3.amazonaws.com/Nomad/agent.zip"
         destination = "local/"
         mode        = "any"
         options {}
